@@ -3,7 +3,7 @@ About georasters
 
 Home: http://github.com/ozak/georasters
 
-Package license: GPLv3+
+Package license: GPL-3.0
 
 Feedstock license: BSD 3-Clause
 
@@ -34,12 +34,15 @@ It includes tools to
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/georasters-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/georasters-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/georasters-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/georasters-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/georasters/badges/version.svg)](https://anaconda.org/conda-forge/georasters)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/georasters/badges/downloads.svg)](https://anaconda.org/conda-forge/georasters)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-georasters-green.svg)](https://anaconda.org/conda-forge/georasters) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/georasters.svg)](https://anaconda.org/conda-forge/georasters) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/georasters.svg)](https://anaconda.org/conda-forge/georasters) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/georasters.svg)](https://anaconda.org/conda-forge/georasters) |
 
 Installing georasters
 =====================
