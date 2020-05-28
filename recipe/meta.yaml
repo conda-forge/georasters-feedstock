@@ -1,6 +1,6 @@
 {% set name = "georasters" %}
-{% set version = "0.5.15" %}
-{% set sha256 = "49fce6eddef5fa787048a9b998d49a5ba25f7138e7ee45ad264f5dc3d63619d6" %}
+{% set version = "0.5.16" %}
+{% set sha256 = "49305431b3cededa19046b4ddfc0347b2a7cf67382625efd6706957c9339462b" %}
 
 package:
   name: {{ name|lower }}
@@ -28,7 +28,7 @@ requirements:
     - gdal
     - pyproj
     - scikit-image
-    - matplotlib
+    - matplotlib-base
     - coverage
     - fiona
     - geopandas
