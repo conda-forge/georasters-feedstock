@@ -1,6 +1,6 @@
 {% set name = "georasters" %}
-{% set version = "0.5.16" %}
-{% set sha256 = "49305431b3cededa19046b4ddfc0347b2a7cf67382625efd6706957c9339462b" %}
+{% set version = "0.5.17" %}
+{% set sha256 = "72d959c7a738a32e7d3d5a8a26a500e7247925d1eeb49457609c690f9f281de0" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -50,7 +50,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE.txt
-  summary: 'Tools for working with Geographical Information System Rasters'
+  summary: Tools for working with Geographical Information System Rasters
 
   description: |
     The GeoRasters package is a python module that provides
