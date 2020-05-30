@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -50,7 +50,7 @@ about:
   license: GPL-3.0
   license_family: GPL
   license_file: LICENSE.txt
-  summary: 'Tools for working with Geographical Information System Rasters'
+  summary: Tools for working with Geographical Information System Rasters
 
   description: |
     The GeoRasters package is a python module that provides
