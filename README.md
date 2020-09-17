@@ -5,7 +5,7 @@ Home: http://github.com/ozak/georasters
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Tools for working with Geographical Information System Rasters
 
