@@ -1,6 +1,6 @@
 {% set name = "georasters" %}
-{% set version = "0.5.19b0" %}
-{% set sha256 = "49cae657e5f6749e2fa6bc323afbdd975fddad055a79170d0c32dcc5f577d3fc" %}
+{% set version = "0.5.20" %}
+{% set sha256 = "3e43548f312b81a88e4b09dd1d0d629dff8a051732e8a4f214e1febffbc2a8c3" %}
 
 package:
   name: {{ name|lower }}
