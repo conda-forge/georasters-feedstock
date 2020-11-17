@@ -5,9 +5,13 @@ Home: http://github.com/ozak/georasters
 
 Package license: GPL-3.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/georasters-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tools for working with Geographical Information System Rasters
+
+Development: https://github.com/ozak/georasters
+
+Documentation: http://georasters.readthedocs.io/
 
 The GeoRasters package is a python module that provides
 a fast and flexible tool to work with GIS raster files.
