@@ -19,12 +19,12 @@ build:
 requirements:
   build:
     - pip
-    - python>=3.4
+    - python >=3.4
   host:
     - pip
-    - python>=3.4
+    - python >=3.4
   run:
-    - python>=3.4
+    - python >=3.4
     - numpy
     - pandas
     - docopt
@@ -50,7 +50,7 @@ test:
 
 about:
   home: http://github.com/ozak/georasters
-  license: GPL-3.0
+  license: GPL-2.0-or-later
   license_family: GPL
   license_file: LICENSE.txt
   summary: Tools for working with Geographical Information System Rasters
