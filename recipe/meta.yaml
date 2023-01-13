@@ -19,9 +19,12 @@ build:
 requirements:
   build:
     - pip
-    - python
+    - python>=3.4
+  host:
+    - pip
+    - python>=3.4
   run:
-    - python
+    - python>=3.4
     - numpy
     - pandas
     - docopt
