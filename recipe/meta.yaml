@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,9 +22,9 @@ requirements:
     - python >=3.4
   host:
     - pip
-    - python >=3.4
+    - python {{ python_min }}
   run:
-    - python >=3.4
+    - python >={{ python_min }}
     - numpy
     - pandas
     - docopt
@@ -47,6 +47,7 @@ test:
     - pyshp >=1.1.4
     - pytest
     - pytest-cov >=2.2.0
+    - python {{ python_min }}
 
 about:
   home: http://github.com/ozak/georasters
